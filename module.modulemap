@@ -1,0 +1,6 @@
+module czookeeper [system] {
+  header "/usr/include/zookeeper/zookeeper.h"
+  link "zookeeper_mt"
+  link "pthread"
+  export *
+}
